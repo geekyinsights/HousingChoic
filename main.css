@@ -19,5 +19,49 @@ h1 {
 .jumbotron{
     margin-top: 100px;
     background-image: url('hud.jpg');
+    background-size:100% 100%;
+    height:30vh;
+    font-color:;
+}
+
+.btn-xxl {
+  padding: 20px 26px;
+  font-size: 35px;
+  border-radius: 8px;
+  width:100%;
+}
+
+
+.btn-yellow {
+  background: rgb(250, 255, 140);
+  color: #574500;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+  background: rgb(252, 255, 179);
+}
+.btn-yellow:active {
+  background: rgb(247, 255, 71);
+}
+.instructionsquare {
+  margin-top:20px;
+  margin-right:5px;
+  border-width:5px;
+  border-radius:5px;
+  border-color:rgb(250, 255, 140);
+  border-style:solid;
+  color: #574500;
+  height:200px;
+  text-align:center;
+  padding-top:1%;
+
+}
+
+#waitliststatus{
+  color:#e74c3c;
+
 }
 
