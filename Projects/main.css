@@ -1,52 +1,10 @@
-body,
-  a {
-    font-family: 'Rubik', sans-serif;
-    color: #faebd7;
-  }
-
-  #wrapper {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://remingtonteam.com/wp-content/uploads/2013/09/02A13QMU.jpg') no-repeat center center fixed;
-    background-size: cover;
-  }
-
-  h1 {
-    text-transform: uppercase;
-  }
-
-  #home {
-    padding-top: 20px;
-  }
-
-  #home img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  #home .content {
-    display: inline-block;
-    position: relative;
-    padding-top:100px;
-  }
-
-#home .content h2{
-  position: absolute;
-    bottom: 60px;
-  right: 20px;
-  color: #0044FF;
+.styles{
+    background-color: red;
 }
-#search{
-  padding: 50px;
+body{
+    color: red;
 }
 
-/*   #home .content a {
-    position: absolute;
-    bottom: 50px;
-    right: 10px;
-    background: rgba(16,31,154,0.8);
-    color: #FFF;
-  } */
-
-  .container {
-    width: 100%;
-    margin: 0 auto;
-  }
+.col-md-4{
+    background-color: blue;
+}
