@@ -33,18 +33,18 @@ h1 {
 
 
 .btn-yellow {
-  background: rgb(250, 255, 140);
-  color: #574500;
+  background: #0044FF;
+  color: floralwhite;
   border: none;
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 .btn-yellow:hover, .btn-yellow:focus {
-  background: rgb(252, 255, 179);
+  background: #101F9A;
 }
 .btn-yellow:active {
-  background: rgb(247, 255, 71);
+  background: #101F9A;
 }
 .instructionsquare {
   margin-top:20px;
@@ -53,7 +53,7 @@ h1 {
   border-radius:5px;
   border-color:rgb(250, 255, 140);
   border-style:solid;
-  color: #574500;
+  color: #0044FF;
   height:200px;
   text-align:center;
   padding-top:1%;
@@ -66,11 +66,11 @@ h1 {
 }
 
 .instructionsquare>i{
-  color:rgb(250, 255, 140);
+  color:#0044FF;
   margin-top:6px;
 }
 #flowchart{
-  color:#574500;
+  color: floralwhite;
   text-align:center;
   align-content: center;
   margin-top:15%;
