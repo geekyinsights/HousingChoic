@@ -1,0 +1,58 @@
+  body,
+  a {
+    font-family: 'Rubik', sans-serif;
+    color: #faebd7;
+  }
+  
+  #wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://img03.deviantart.net/5953/i/2010/221/8/2/minimalism_background_by_erdij.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-family: 'Rubik';
+  }
+  
+  #application {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .selfie {
+    border-radius: 50%;
+    width: 25%;
+  }
+  
+  #home {
+    padding-top: 20px;
+  }
+  
+  #home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #home .content {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #home .content a {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    background: rgba(16,31,154,0.8);
+    color: #FFF;
+  }
+  
+  #pricing {
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }

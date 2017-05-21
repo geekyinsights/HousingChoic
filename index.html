@@ -1,67 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src="https://use.fontawesome.com/cf8ac7b12a.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="bootstrap.min.css"/>
-<link rel="stylesheet" href="main.css"/>
+  <meta charset="UTF-8">
+  <title>FindHousing-Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
-    <body>
-         <div class ="container">
-            <nav class="navbar navbar-default navbar-fixed-top">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#home"><img style="max-height:30px" src="http://i.imgur.com/u00yA5w.png"></a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="screening_form_index.html">Application</a></li>
-                    <li><a href="#what">Property Manager</a></li>
-                    <li><a href="#contact">Caseworker</a></li>
-                    <li><a href="#contact">Sign in</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-        </div>
-        <div class="container">
-        <div class="jumbotron">
-            <h1> Find out if you qualify</h1>
-        </div>
-        <div class="btn btn-xxl btn-yellow" id="signonbutton"> Get Screened Now!</div>
-          <div class="row">
-                     <a href="https://www.google.com/maps/d/viewer?mid=1QqaJK0jQ1z5u_hSFaaf2QiSqZ3Y&ll=29.707141176683884%2C-95.44970319999999&z=14"><div class="col-md-3 instructionsquare"><h3>Local Housing Authorities</h3><i class="fa fa-map fa-5x" aria-hidden="true"></i></div></a>
-            <div class="col-md-1"></div>
-            <div class="col-md-3 instructionsquare">
-              <h2> Waitlist Satus: <br> <span id="waitliststatus">Frozen :(</span></h2>
-              <h4>HUD is not currently accepting new applications</h4>
-            </div>
-            <div class="col-md-1"></div>
- 
-            <a href="#flowchart"><div class="col-md-3 instructionsquare"><h3>How Housing Vouchers Work</h3><i class="fa fa-home fa-5x" aria-hidden="true"></i></div></a>
-          </div>
 
-          <div id="flowchart">
-            <h2>How Housing Vouchers Work</h2>
-            <img src="Section8_Flowchart.png">
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#home"><img style="max-height:30px" src="http://i.imgur.com/u00yA5w.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#survey">Application</a></li>
+        <li><a href="#what">Property Manager</a></li>
+        <li><a href="#contact">Caseworker</a></li>
+        <li><a href="#contact">Sign in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<body id="wrapper">
+  <div id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 cold-sm-6">
+          <div class="content"><img style="width:100%" src="http://www.byui.edu/Images/housing/Homepage/banner-CS-cropped.jpg">
+          <a href="#"><h1>GET PRE-SCREENED</h1></a>
           </div>
         </div>
-                    
+      </div>
+    </div>
+  </div>
 
-    
+  <div id="pricing">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4" style="background-color: #0044FF">
+          <h2>Tenants</h2>
+          <p>
+            Easily apply for housing, monitor status, and look for potential homes!</p><i class="fa fa-chevron-circle-right"><a href ="#"> Get Started and Log In</i></a>
+        </div>
+        <div class="col-md-4" style="background-color: #101F9A">
+          <h2>Property Managers</h2>
+          <p>
+            Quickly list openings, find reliable tenants, and organize tenant documentation.</p><i class="fa fa-chevron-circle-right"><a href ="#"> Get Started and Log In></i></a>
+        </div>
+        <div class="col-md-4" style="background-color: #1b96fe">
+          <h2>Caseworkers</h2>
+          <p>Easily monitor caseload, receive and review documents.</p><i class="fa fa-chevron-circle-right"><a href ="#"> Get Started and Log In></i></a>
+        </div>
+      </div>
+    </div>
 
-
-       
+    <div id="application">
+      <h1>Application Form</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-8">
+            <img class="selfie" src="http://i.imgur.com/S8DRgGv.png"> </img>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-xs-8">
+            <h3>Juliana Mei</h3>
+            <p>Duis sagittis justo pharetra, egestas quam vel, iaculis odio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
-    
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-        <script type="text/javascript" src="form_app.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+</body>
 </html>
